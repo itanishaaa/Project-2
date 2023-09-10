@@ -1,4 +1,3 @@
-
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Taviraj:ital,wght@1,300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Phudu:wght@700&family=Taviraj:ital,wght@1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
@@ -9,10 +8,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-#main{
-    height: 100%;
-    width: 100%;
-}
+
+
 .info{
     height: 20px;
     background-color: #dde4ce;
@@ -219,7 +216,7 @@ span{
     font-size: 10px;
     padding-left: 750px;
 }
-.overlay{ width: 100%;
+/* .overlay{ width: 100%;
     height: 100%;
     position: absolute;
     background-image: url(H2.jpg);
@@ -264,8 +261,57 @@ background-size: cover;}
     text-shadow: 0 0 10px black;}
     .overlay-three a h5{ font-size: 10px;
         padding-left: 1080px;
+    } */
+    .footer-0{
+        width: 100%;
+    background-color: white;
+    height: 261px;
     }
+   .footer-0-image{ background-image: url(f9.webp);
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    transform: translate y(-2px);
+   }
+.footer-1{
+    background-color: rgb(86, 54, 41);
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-top: 30px;
+    gap:1px
+}
+li{
+    list-style-type: none;
+}
+.footer-1 ul p{
+    font-weight: bolder;}
+    .footer-2{
+        height: 100px;
+        background-color:rgb(86, 72, 66) ;
+        display: flex;
+       
+    }
+    .footer-2 ul{
+        padding-left: 903px;
+        padding-top: 33px;
+            
     
+    }
+    .icons{
+        height: 100%;
+        width: 200px;
+        padding-left: 30px;
+        padding-top:50px ;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .icons a {
+        text-decoration: none;
+        color: black;
+    }
 
 
 
